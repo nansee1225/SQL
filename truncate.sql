@@ -13,9 +13,5 @@ insert into students(NAME , age ,email )
 values
 ('pooja SINGH',34,'pooja4singh@gmail.com'),
 ('radhika singh', 36, 'radhika@gmail.com');
-alter table students add column city varchar(100);
-alter table students rename column city to studentCITY;
-DELETE FROM students WHERE NAME IS NULL;
-update students set city='modinagr' where studentid =1;
-update students set city='gzb' where studentid =2;
+TRUNCATE table students; -- delets all the data inside table
 select * from students;
