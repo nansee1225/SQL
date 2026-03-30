@@ -11,7 +11,7 @@ email varchar(200)
 );
 insert into students(NAME , age ,email )
 values
-('pooja SINGH',34,'pooja4singh@gmail.com'),
+('pooja SINGH',34,'pooja445singh@gmail.com'),
 ('radhika singh', 36, 'radhika@gmail.com');
 alter table students add column city varchar(100);
 alter table students rename column city to studentCITY;
